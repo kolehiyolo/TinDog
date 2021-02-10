@@ -15,6 +15,7 @@
     font-weight: 900;
     font-size: 3rem;
     line-height: 1.5;
+    
 }
 
 .navbar-brand{
@@ -26,10 +27,14 @@
     padding:3% 15%;
 }
 
-.iphone-mockup{
-    transform: rotate(15deg);
+.col-lg-6{
+    padding:0;
 }
 
-.max-vh-90{
-    max-height: 90vh !important;
+.iphone-mockup{
+    transform: rotate(30deg);
+}
+
+.min-vh-90{
+    min-height: 90vh !important;
 }
