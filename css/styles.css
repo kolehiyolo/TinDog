@@ -3,14 +3,6 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
-<<<<<<< HEAD
-#title{
-    background-color: #ff4c68;
-    font-family: 'Montserrat', sans-serif;
-}
-
-#title h1{
-=======
 body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -49,18 +41,12 @@ body{
 }
 
 h1 {
->>>>>>> 3edb8a581da80aa4df5358e113d180b1e099e6ea
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     font-size: 3rem;
     line-height: 1.5;
 }
 
-<<<<<<< HEAD
-.container-fluid{
-    padding:3% 15%;
-}
-=======
 .iphone-mockup {
     transform: rotate(30deg);
     width:60%;
@@ -97,4 +83,3 @@ h1 {
     color: #8f8f8f;
 }
 
->>>>>>> 3edb8a581da80aa4df5358e113d180b1e099e6ea
