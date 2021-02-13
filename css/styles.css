@@ -86,7 +86,7 @@ h1 {
 /* Testimonials Section */
 
 #testimonials{
-    padding: 5% 15%;
+    padding: 50px 15% 10px;
     text-align: center;
     background-color: #ef8172;
     color: white;
@@ -100,8 +100,13 @@ h1 {
 
 #testimonials img{
     border-radius: 50%;
-    width:10%;
-    margin: 20px;
+    min-width: 75px;
+    width:10%; 
+    margin: 20px 20px 20px 0;
+}
+
+#testimonials .carousel-inner{
+    padding:0;
 }
 
 .carousel-control{
@@ -110,21 +115,17 @@ h1 {
     margin:-12.5vw;
 }
 
-/* .carousel-item{
-    padding:0 15%;
-} */
-/* 
-.carousel-control-prev{
-    margin-left:-12.5vw;
+hr{
+    border-style:dotted none;
+    border-width:5px;
+    width:50%;
+    min-width:200px;
+    margin: 25px auto;
 }
-
-.carousel-control-next{
-    margin-right:-12.5vw;
-} */
 
 /* Press */
 #press{
-    padding-bottom: 5%;
+    padding: 0 0 25px;
     text-align: center;
     background-color: #ef8172;
 }
