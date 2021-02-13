@@ -134,3 +134,39 @@ hr{
     width: 200px;
     margin: 25px 25px;
 }
+
+/* Pricing */
+#pricing{
+    /* background-color: grey; */
+    padding: 50px 15% 50px;
+}
+
+#pricing .row{
+    line-height: 1.5;
+}
+
+#pricing .col{
+    padding:3% 2%;
+}
+
+#pricing .card-header{
+    background-color: #ff4c68;
+}
+
+#pricing h2, h3{
+    font-weight: bold;   
+    font-size: 5vh;
+    line-height: 1.5;
+}
+
+#pricing h3{
+    color:white;
+    font-size: 3vh;
+    margin:0;
+}
+
+#pricing .btn:hover{
+    border:1px #ff4c68 solid;
+
+    background-color: #ff4c68;
+}
