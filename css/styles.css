@@ -5,17 +5,18 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
 /* Title Section */
 #title {
     background-color: #ff4c68;
-    /* background-color: grey; */
     color: white;
+    text-align: left;
 }
 
 .container-fluid {
-    padding: 3% 15% 50px;
+    padding: 3% 15% 200px;
 }
 
 /* Navigation Bar */
@@ -48,13 +49,17 @@ h1 {
 }
 
 .iphone-mockup {
+    position: absolute;
+    /* right:20%; */
     transform: rotate(30deg);
-    width:60%;
+    min-width: 175px;
+    width:20%;
 }
 
 /* Features */
 #features{
-    text-align: center;
+    background-color: white;
+    position: relative;
 }
 
 #features .col-lg-4{
@@ -87,8 +92,7 @@ h1 {
 
 #testimonials{
     padding: 50px 15% 10px;
-    text-align: center;
-    background-color: #ef8172;
+    background-color: #ff4c68;
     color: white;
 }
 
@@ -126,8 +130,7 @@ hr{
 /* Press */
 #press{
     padding: 0 0 25px;
-    text-align: center;
-    background-color: #ef8172;
+    background-color: #ff4c68;
 }
 
 #press img{
@@ -167,6 +170,35 @@ hr{
 
 #pricing .btn:hover{
     border:1px #ff4c68 solid;
-
     background-color: #ff4c68;
+}
+
+/* Call to Action */
+#cta{
+    padding:50px 15%;
+    background-color: #ff4c68;
+    color:white;
+    font-weight: 900;
+}
+
+#cta .btn{
+    margin:10px;
+}
+
+/* Footer */
+#footer{
+    padding:50px 15%;
+}
+
+#footer i{
+    padding:25px 10px;
+    color:black;
+}
+
+#footer i:hover{
+    color:#ff4c68;
+}
+
+#footer p{
+    margin:0;
 }
